@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore file containing main function
+main.c
+
+# Ignore compiled output file
+a.out
