@@ -17,8 +17,7 @@ int _sprint(const char *str)
 	for (i = 0; str[i]; i++)
 		nstr[i] = str[i];
 	nstr[i] = '\0';
-	num_char = write(1, nstr, i) - 1;
-	_putchar('\n');
+	num_char = write(1, nstr, i);
 	free(nstr);
 	return (num_char);
 }
